@@ -136,6 +136,13 @@
     margin:0 auto;
 }
 
+.w-vw-cntr-pad {
+	margin-left: var(--s0);
+	margin-right: var(--s0);
+	padding-bottom: var(--s2);
+	max-width: 50vw;
+}
+
 .wrapclose{
 	max-width: 25rem;
 	margin:0 auto;
