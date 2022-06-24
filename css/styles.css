@@ -244,6 +244,11 @@ p{
 		max-width: 80vw;
 		margin:0 auto;
 	}
+	
+	.wrap {
+    max-width: 75rem;
+    margin:0 auto;
+}
 }
 
 @media (min-width: 591px){
