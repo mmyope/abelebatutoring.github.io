@@ -246,7 +246,7 @@ p{
 	}
 	
 	.wrap {
-    min-width: 75rem;
+    max-width: 75rem;
     margin:0 auto;
 }
 }
@@ -256,5 +256,10 @@ p{
 		max-width: 25rem;
 		max-height: 25rem;
 		overflow: auto;
+	}
+	
+	.wrap{
+		max-width: 55rem;
+		margin: 0 auto;
 	}
 }
