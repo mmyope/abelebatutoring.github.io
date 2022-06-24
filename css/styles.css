@@ -237,6 +237,10 @@ p{
 		max-width: 80vw;
 		margin:0 auto;
 	}
+	
+	.wrap{
+		max-width: 90vw;
+	}
 }
 
 @media (min-width: 591px){
