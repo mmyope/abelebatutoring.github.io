@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 5rem;
+  padding: 1.5rem;
 }
 
 .cover > * {
@@ -237,10 +237,7 @@ p{
 		max-width: 80vw;
 		margin:0 auto;
 	}
-	
-	.wrap{
-		
-	}
+
 }
 
 @media (min-width: 591px){
