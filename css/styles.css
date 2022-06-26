@@ -256,9 +256,9 @@ p{
     	margin:0 auto;
 	}
 
-  #email [
-  width: 85vw;
-  ]
+  #email {
+    width: 85vw;
+  }
 
 }
 
