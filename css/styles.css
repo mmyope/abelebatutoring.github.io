@@ -256,6 +256,10 @@ p{
     	margin:0 auto;
 	}
 
+  #email [
+  width: 85vw;
+  ]
+
 }
 
 @media (min-width: 591px){
