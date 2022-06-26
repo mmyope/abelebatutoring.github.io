@@ -242,7 +242,7 @@ p{
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 590px){
+@media screen and (max-width: 590px){
 	#whoiamgif{
 		max-width: 80vw;
 	}
