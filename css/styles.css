@@ -191,6 +191,10 @@
 
 }
 
+#email {
+
+}
+
 #contact:hover {
   color: darkorange;
   text-decoration: none;
@@ -247,8 +251,9 @@ p{
 		margin:0 auto;
 	}
 
-	.wrap{
-		max-width
+	.wrap {
+    	width: 70rem;
+    	margin:0 auto;
 	}
 
 }

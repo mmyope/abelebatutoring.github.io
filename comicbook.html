@@ -17,6 +17,17 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:wght@300;500;600&display=swap" rel="stylesheet">
 	
+	<script>
+		function revealEmail() {
+			let style = document.getElementById("email").style.display;
+			if( style == "none") {
+				document.getElementById("email").style.display = "block";
+			} else {
+				document.getElementById("email").style.display = "none";
+			}
+		}
+	</script>
+	
 </head>
 
 <body class="cover wrap">
@@ -92,11 +103,11 @@
 	</main>
 	
 	<footer>
-		<br><br>	
-		<h2>CONTACT</h2>
-		<a href="index.html">
-			<i>back</i>	
-		</a>
+		<br><br>
+		<h2 id="contact" onclick="revealEmail()">contact</h2>
+		<h2 id="email" style="display:none;"> <i>abelebatutoring@gmail.com</i> </h2>
+		<br>
+		<a href="index.html"><i>back</i></a>
 	</footer>
 	
 </body>
