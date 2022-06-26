@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .cover > * {
@@ -132,7 +132,7 @@
 /*CLASSES*/
 
 .wrap {
-    max-width: 70vw;
+    max-width: 60vw;
     margin:0 auto;
 }
 
@@ -252,7 +252,7 @@ p{
 	}
 
 	.wrap {
-    	width: 70rem;
+    	max-width: 85vw;
     	margin:0 auto;
 	}
 
@@ -264,4 +264,5 @@ p{
 		max-height: 25rem;
 		overflow: auto;
 	}
+
 }
